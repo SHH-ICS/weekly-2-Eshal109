@@ -1,12 +1,14 @@
-diameter = input()
-if diameter < 0:
-  print("reenter diameter, number must be grater than 0")
-elif diameter > 0: 
-  def calc(r):
-    r=d/2
-    print(r)
-    area = math.pi*r**2
-    cirumference = 2*math.pi*2
-    print(area)
-    print(cirumference)
+import math
+
+diameter = float(input("Enter the diameter of the circle: ")
+
+if diameter <= 0:
+  print("Reenter diameter, number must be grater than 0")
+else:
+  def calc(d):
+      r = d / 2 
+      area = math.pi * r ** 2
+      cirumference = 2 * math.pi * r  
+      print("Area:", area)  
+      print("Cirumference:", cirumference)
 
